@@ -1,0 +1,39 @@
+# Core packages
+numpy>=1.25,<2.0.0
+pandas>=2.2
+scikit-learn>=1.3
+scipy>=1.11
+
+# Jupyter + IPython
+ipykernel
+ipython>=8.0
+jupyter_client
+matplotlib-inline
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+pillow>=10.0
+
+# I/O
+openpyxl>=3.1
+
+# Utility
+joblib
+tqdm
+psutil
+
+# Math / Graph
+sympy
+networkx
+kagglehub
+
+# Fuzzy / SOM
+MiniSom
+pyFUME
+scikit-fuzzy
+simpful
+
+# NOTE: PyTorch is installed by envsetup.sh (CPU or CUDA 12.1)
+# Suggested (Python 3.12 compatible):
+#   torch~=2.4.0 torchvision~=0.19.0 torchaudio~=2.4.0
